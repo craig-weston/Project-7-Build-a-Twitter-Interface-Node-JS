@@ -1,7 +1,7 @@
 {
   "name": "craig",
   "version": "1.0.0",
-  "description": "A twitter Interface using the public API",
+  "description": "A twitter Interface using the public API and Node JS Express",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -11,18 +11,19 @@
     "API",
     "Interface",
     "Node",
-    "JS"
+    "JS",
+	"Express"
   ],
   "author": "Craig Weston",
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/craig-weston/Project-7-Build-a-Twitter-Interfaceing.git"
+    "url": "git+https://github.com/craig-weston/Project-7-Build-a-Twitter-Interface-Node-JS.git"
   },
   "bugs": {
-    "url": "https://github.com/craig-weston/Project-7-Build-a-Twitter-Interfaceing/issues"
+    "url": "https://github.com/craig-weston/Project-7-Build-a-Twitter-Interface-Node-JS/issues"
   },
-  "homepage": "https://github.com/craig-weston/Project-7-Build-a-Twitter-Interfaceing#readme",
+  "homepage": "https://github.com/craig-weston/Project-7-Build-a-Twitter-Interface-Node-JS#readme",
   "dependencies": {
     "async": "^2.6.0",
     "body-parser": "^1.18.2",
