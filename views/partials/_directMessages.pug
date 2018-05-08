@@ -1,0 +1,19 @@
+.grid-33
+  .app--section
+    ul.app--message--list
+      if(privateMessagesData.length !== 0)
+        each messages in privateMessagesData
+          li
+            h3 Private message from 
+              a= messages.senderUsername
+            ul.app--message--conversation
+              li.app--message
+                .app--avatar(style='background-image: url(' + messages.profilPictureSender + ')')
+                  img(src=messages.profilPictureSender)
+                
+                p.app--message--text= messages.text
+                p.app--message--timestamp= messages.timeSent
+                p.app--message--timestamp= messages.fullDate
+        
+      else
+        p You have no private messages, yet!

@@ -1,0 +1,18 @@
+.grid-33
+  .app--section
+    ul.app--user--list
+      if(friendsData.length !== 0)
+        each user in friendsData
+          li
+            .circle--fluid
+              .circle--fluid--cell.circle--fluid--primary
+                a(href="https://twitter.com/" + user.screenName, target="_blank").app--tweet--author
+                  .app--avatar(style='background-image: url(' + user.profilPicture + ')')
+                    img(src=user.profilPicture)
+                  
+                  h4= user.realName
+                  p @
+                    span= user.screenName
+                  
+      else
+        p You have no friends, yet!
